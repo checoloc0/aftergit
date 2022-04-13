@@ -18,6 +18,9 @@ footer{
 section{
     width: 100vw;
     height: 80vh;
+    background-color: #bd4f6c;
+background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+
 }
 
 h1,h2,h4{
@@ -28,4 +31,11 @@ h1,h2,h4{
 h1{
     font-size: 3rem ;
     text-align: center;
+    color: white;
+    transition: all 2s;
+}
+h1:hover{
+    font-size: 3.2rem;
+    color: lime;
+
 }
